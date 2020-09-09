@@ -5,6 +5,10 @@
     <UserSecretsId>aspnet-LoginApp-0B08D6A4-7DBF-4592-8D11-60A2FAB14B8A</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include=".ebextensions\01-rds.config" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.0.0" />
